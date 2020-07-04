@@ -1,5 +1,7 @@
 
 projede sql yerine mongodb kullandım. 
+bilgisayarda mongdbnin kurulması gerekmektedir.
+geri kalan db structure nodejs in içindedir otomatik olarak yuklenecektir
 
 projede servisleri basına api konulmuştur
 
