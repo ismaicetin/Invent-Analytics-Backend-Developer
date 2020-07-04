@@ -37,3 +37,8 @@ Bu gereksinimleri yerine getirmek için Javascript ile Node.js geliştirme ortam
 Teknik gereksinimler aşağıda listelenmiştir. Çözümün mümkün olduğunca bu gereksinimleri yerine getiriyor olması gerekmektedir.  
  
 ● REST API Express.js kütüphanesi ile geliştirilmelidir. ● TypeScript ya da ES5+ kullanılabilir. Webpack, babel vb. kütüphaneler kullanılabilir. ● Veritabanı olarak istenilen bir relational database management system kullanılabilir. Veritabanı DDL scriptinin çözüm ile beraber iletilmesi gerekmektedir.  ● Veritabanı işlemleri için bir ORM ya da query builder kütüphanesi kullanılması tercih edilmektedir (örneğin knex, sequelize,  bookshelf, typeorm vb.). ● API isteklerinde gönderilen body’lerin bir validator yardımıyla kontrol edilmesi beklenmektedir (örneğin joi, express-validator, validator.js vb.) ● Hatalı durumlarda (örneğin olmayan bir kullanıcının kitap almaya çalışması, başkası üzerindeki bir kitabın alınmaya çalışılması vb.) uygulamanın hatayı yakalayarak API cevabında bir hata olduğunu belirtmesi gerekmektedir (en azından 500 Internal Server Error). ● Lodash, Underscore.js, moment vb. utility kütüphaneleri gerekirse kullanılabilir. 
+
+
+
+
+ismail çetin
